@@ -1,7 +1,24 @@
 @import "tailwindcss";
+@plugin "daisyui";
 @theme {
   --font-satoshi: var(--font-satoshi);
   --font-clash-display: var(--font-clash-display);
+}
+
+.grid-background {
+  --grid-size: 85px;
+  --grid-line-color: rgba(255, 255, 255, 0.14);
+  background-image: linear-gradient(
+      to right,
+      var(--grid-line-color) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      var(--grid-line-color) 1px,
+      transparent 1px
+    );
+  background-size: var(--grid-size) var(--grid-size);
 }
 
 

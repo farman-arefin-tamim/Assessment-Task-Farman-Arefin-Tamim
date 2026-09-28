@@ -4,7 +4,7 @@ import { AiOutlineShopping } from "react-icons/ai";
 const Navbar = () => {
     return (
         <div>
-            <nav className="flex justify-between mx-w-7xl mx-auto py-4 px-8 items-center">
+            <nav className="grid-background flex justify-between mx-w-7xl mx-auto py-4 px-8 items-center bg-[#003BE2] text-white">
                 <div className="logo flex gap-2 items-center">
                     <Image
                        src="/images/hero/logo.png"
