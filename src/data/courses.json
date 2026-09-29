@@ -1,0 +1,140 @@
+[
+  {
+    "id": "learn-figma-from-basic",
+    "slug": "learn-figma-from-basic",
+    "title": "Learn Figma from Basic",
+    "thumbnail": "/images/courses/figma-basic.jpg",
+    "lessonCount": 17,
+    "duration": "2 hours 16 mins",
+    "commentCount": 59,
+    "rating": 4.5,
+    "level": "Beginner",
+    "price": 25,
+    "creator": {
+      "name": "purepearl studio",
+      "slug": "purepearl-studio"
+    },
+    "studentAvatars": [
+      "/images/avatars/1.png",
+      "/images/avatars/2.png",
+      "/images/avatars/3.png",
+      "/images/avatars/4.png"
+    ],
+    "extraStudentCount": 26
+  },
+  {
+    "id": "build-digital-asset",
+    "slug": "build-digital-asset",
+    "title": "Build Digital Asset",
+    "thumbnail": "/images/courses/digital-asset.jpg",
+    "lessonCount": 17,
+    "duration": "2 hours 16 mins",
+    "commentCount": 59,
+    "rating": 4.5,
+    "level": "Beginner",
+    "price": 25,
+    "creator": {
+      "name": "purepearl studio",
+      "slug": "purepearl-studio"
+    },
+    "studentAvatars": [
+      "/images/avatars/1.png",
+      "/images/avatars/2.png",
+      "/images/avatars/3.png",
+      "/images/avatars/4.png"
+    ],
+    "extraStudentCount": 26
+  },
+  {
+    "id": "the-power-of-big-data",
+    "slug": "the-power-of-big-data",
+    "title": "the Power of Big Data",
+    "thumbnail": "/images/courses/big-data.jpg",
+    "lessonCount": 17,
+    "duration": "2 hours 16 mins",
+    "commentCount": 59,
+    "rating": 4.5,
+    "level": "Beginner",
+    "price": 25,
+    "creator": {
+      "name": "purepearl studio",
+      "slug": "purepearl-studio"
+    },
+    "studentAvatars": [
+      "/images/avatars/1.png",
+      "/images/avatars/2.png",
+      "/images/avatars/3.png",
+      "/images/avatars/4.png"
+    ],
+    "extraStudentCount": 26
+  },
+  {
+    "id": "balancing-productivity",
+    "slug": "balancing-productivity",
+    "title": "Balancing Productivity an...",
+    "thumbnail": "/images/courses/productivity.jpg",
+    "lessonCount": 17,
+    "duration": "2 hours 16 mins",
+    "commentCount": 59,
+    "rating": 4.5,
+    "level": "Beginner",
+    "price": 25,
+    "creator": {
+      "name": "purepearl studio",
+      "slug": "purepearl-studio"
+    },
+    "studentAvatars": [
+      "/images/avatars/1.png",
+      "/images/avatars/2.png",
+      "/images/avatars/3.png",
+      "/images/avatars/4.png"
+    ],
+    "extraStudentCount": 26
+  },
+  {
+    "id": "mastering-money-management",
+    "slug": "mastering-money-management",
+    "title": "Mastering Money Manage...",
+    "thumbnail": "/images/courses/mastering-money.jpg",
+    "lessonCount": 17,
+    "duration": "2 hours 16 mins",
+    "commentCount": 59,
+    "rating": 4.5,
+    "level": "Beginner",
+    "price": 25,
+    "creator": {
+      "name": "purepearl studio",
+      "slug": "purepearl-studio"
+    },
+    "studentAvatars": [
+      "/images/avatars/1.png",
+      "/images/avatars/2.png",
+      "/images/avatars/3.png",
+      "/images/avatars/4.png"
+    ],
+    "extraStudentCount": 26
+  },
+  {
+    "id": "from-idea-to-startup-success",
+    "slug": "from-idea-to-startup-success",
+    "title": "From Idea to Startup Succ...",
+    "thumbnail": "/images/courses/idea.jpg",
+    "lessonCount": 17,
+    "duration": "2 hours 16 mins",
+    "commentCount": 59,
+    "rating": 4.5,
+    "level": "Beginner",
+    "price": 25,
+    "creator": {
+      "name": "purepearl studio",
+      "slug": "purepearl-studio"
+    },
+    "studentAvatars": [
+      "/images/avatars/1.png",
+      "/images/avatars/2.png",
+      "/images/avatars/3.png",
+      "/images/avatars/4.png"
+    ],
+    "extraStudentCount": 26
+  }
+]

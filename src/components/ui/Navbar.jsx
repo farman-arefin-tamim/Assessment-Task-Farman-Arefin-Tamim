@@ -26,7 +26,7 @@ const Navbar = () => {
                     </li>
                 </ul>
 
-                <div className="auth-buttons flex gap-4 items-center">
+                <div className="auth-buttons flex gap-4 items-center font-satoshi">
                     <ul className="flex gap-4 items-center">
                         <li>
                             <a href="#">Login</a>
