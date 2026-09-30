@@ -9,7 +9,7 @@ const Header = () => {
                     <h1 className="font-semibold text-5xl text-white">
                         Get Access to Hundreds <br />Courses Available
                     </h1>
-                    <p className="text-white mt-4">
+                    <p className="text-white mt-4 font-satoshi">
                         Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
                     </p>
                 </div>
