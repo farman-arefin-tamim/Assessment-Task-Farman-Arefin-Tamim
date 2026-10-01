@@ -35,11 +35,11 @@ const Footer = () => {
                         Stay Up to date with our latest features and releases by joining our newsletter.
                     </p>
 
-                    <form className="flex items-center gap-2 mt-6">
+                    <form className="mt-6 flex flex-col items-stretch gap-2 sm:flex-row sm:items-center">
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="input rounded-full border border-gray-200 w-full max-w-[300px]"
+                            className="input rounded-full border border-gray-200 w-full sm:max-w-[300px]"
                         />
                         <button type="submit" className="btn rounded-full bg-[#D4FB20] text-black border-none">
                             Search
@@ -68,7 +68,7 @@ const Footer = () => {
     
             <div className="border-t border-gray-100 mt-14 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <p className="text-gray-500 text-sm">@ 2026 ByteSpace. All rights reserved.</p>
-                <div className="flex gap-6">
+                <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
                     {legalLinks.map((link) => (
                         <Link key={link} href="#" className="text-gray-500 text-sm hover:text-primary">
                             {link}

@@ -27,7 +27,7 @@ export default async function CoursePage({ params }) {
             {/* blue band behind the title + video; the sidebar card overflows below it */}
             <div className="grid-background absolute inset-x-0 top-0 h-[480px] md:h-[620px] bg-[#003BE2]" aria-hidden />
 
-            <div className="relative grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_340px] max-w-6xl mx-auto lg:gap-x-10">
+            <div className="relative mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-x-10">
                 <div className="px-6 lg:px-0 lg:col-start-1">
                     <CourseHero course={course} />
                 </div>

@@ -12,7 +12,7 @@ const navLinks = [
 const Navbar = () => {
     return (
         <div>
-            <nav className="grid-background flex justify-between  mx-auto py-4 px-8 items-center bg-[#003BE2] text-white">
+            <nav className="grid-background flex flex-wrap justify-between gap-x-4 gap-y-3 mx-auto py-3 px-4 md:py-4 md:px-8 items-center bg-[#003BE2] text-white">
                 <Link href="/" className="logo flex gap-2 items-center">
                     <Image
                         src="/images/hero/logo.png"
@@ -25,7 +25,7 @@ const Navbar = () => {
 
                 <NavLinks links={navLinks} />
 
-                <div className="auth-buttons flex gap-4 items-center font-satoshi">
+                <div className="auth-buttons flex gap-3 md:gap-4 items-center font-satoshi text-sm md:text-base">
                     <ul className="flex gap-4 items-center">
                         <li>
                             <Link href="/signin">Sign In</Link>
