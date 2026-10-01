@@ -26,9 +26,9 @@ const GrowthRow2 = () => (
                 />
             </div>
 
-            <Image src="/images/shapes/squiggle-lime-bottom.png" alt=""
-                width={90} height={90}
-                className="absolute top-[35%] right-8 -z-10" />
+            <Image src="/images/brand/squiggle-lime-full.png" alt=""
+                width={200} height={200}
+                className="absolute top-[25%] right-8 z-10" />
         </div>
 
         <div className="order-1 lg:order-2">

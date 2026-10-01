@@ -6,6 +6,7 @@ const CourseCard = ({ course }) => {
         <div className="card bg-base-100 shadow-sm border border-gray-100 rounded-2xl mx-4">
             
             <figure className="relative">
+                <Link href={`/courses/${course.slug}`} className="block w-full">
                 <Image
                     src={course.thumbnail}
                     alt={course.title}
@@ -13,6 +14,7 @@ const CourseCard = ({ course }) => {
                     height={220}
                     className="w-full h-[220px] object-cover"
                 />
+                </Link>
                 <div className="absolute bottom-3 left-3 flex gap-2">
                     <span className="badge badge-neutral bg-black/60 border-none text-white text-xs">
                         {course.lessonCount} Lessons
@@ -29,7 +31,9 @@ const CourseCard = ({ course }) => {
             <div className="card-body gap-2">
                
                 <div className="flex items-start justify-between gap-2">
-                    <h3 className="font-semibold text-lg">{course.title}</h3>
+                    <h3 className="font-semibold text-lg">
+                        <Link href={`/courses/${course.slug}`} className="hover:text-primary">{course.title}</Link>
+                    </h3>
                     <div className="flex items-center gap-1 shrink-0">
                         <span>{course.rating}</span>
                         <span className="text-yellow-400">★</span>

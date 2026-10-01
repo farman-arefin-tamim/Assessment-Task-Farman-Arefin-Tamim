@@ -27,18 +27,14 @@ const GrowthRow1 = () => (
              <Image src="/images/hero/hero1.png" alt="Student with laptop"
                 width={400} height={400}
                 className="absolute -bottom-10 -right-15 z-10" />
-            {/* <div className="absolute top-0 left-0 z-10 w-[280px]">
-               
-            </div> */}
+           
 
            
             <div className="absolute top-[50%] -right-18 z-20">
                 <ProgressCard label="Learning Progress" percent={55} />
             </div>
 
-            {/* <Image src="/images/shapes/squiggle-lime.png" alt=""
-                width={100} height={100}
-                className="absolute top-[15%] right-[10%] -z-10" /> */}
+            
         </div>
     </div>
 );

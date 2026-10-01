@@ -1,41 +1,42 @@
 import Image from "next/image";
+import Link from "next/link";
 import { AiOutlineShopping } from "react-icons/ai";
+import NavLinks from "./NavLinks";
+
+const navLinks = [
+    { name: "Home", href: "/" },
+    { name: "Courses", href: "/courses" },
+    { name: "Creators", href: "/creators" },
+];
 
 const Navbar = () => {
     return (
         <div>
-            <nav className="grid-background flex justify-between mx-w-7xl mx-auto py-4 px-8 items-center bg-[#003BE2] text-white">
-                <div className="logo flex gap-2 items-center">
+            <nav className="grid-background flex justify-between max-w-7xl mx-auto py-4 px-8 items-center bg-[#003BE2] text-white">
+                <Link href="/" className="logo flex gap-2 items-center">
                     <Image
-                       src="/images/hero/logo.png"
-                       alt="Logo"
-                       width={50}
-                       height={50}
+                        src="/images/hero/logo.png"
+                        alt="Logo"
+                        width={50}
+                        height={50}
                     />
                     <h1 className="font-clash-display text-xl font-bold">ByteSpace</h1>
-                </div>
-                <ul className="nav-links flex gap-8 items-center font-satoshi">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Courses</a>
-                    </li>
-                    <li>
-                        <a href="#">Creators</a>
-                    </li>
-                </ul>
+                </Link>
+
+                <NavLinks links={navLinks} />
 
                 <div className="auth-buttons flex gap-4 items-center font-satoshi">
                     <ul className="flex gap-4 items-center">
                         <li>
-                            <a href="#">Login</a>
+                            <Link href="/signin">Sign In</Link>
                         </li>
                         <li>
-                            <a href="#">Join Us</a>
+                            <Link href="/join">Join Us</Link>
                         </li>
                     </ul>
-                    <AiOutlineShopping className="text-2xl"/>
+                    <Link href="/cart">
+                        <AiOutlineShopping className="text-2xl" />
+                    </Link>
                 </div>
             </nav>
         </div>
