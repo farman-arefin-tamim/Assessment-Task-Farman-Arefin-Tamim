@@ -12,7 +12,7 @@ const navLinks = [
 const Navbar = () => {
     return (
         <div>
-            <nav className="grid-background flex justify-between max-w-7xl mx-auto py-4 px-8 items-center bg-[#003BE2] text-white">
+            <nav className="grid-background flex justify-between  mx-auto py-4 px-8 items-center bg-[#003BE2] text-white">
                 <Link href="/" className="logo flex gap-2 items-center">
                     <Image
                         src="/images/hero/logo.png"
