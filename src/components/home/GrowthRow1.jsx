@@ -1,6 +1,6 @@
 import Image from "next/image";
 import GrowthStats from "@/components/home/GrowthStats";
-// import ProgressCard from "@components/ui/ProgressCard";
+import ProgressCard from "@/components/ui/ProgressCard";
 
 const GrowthRow1 = () => (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -16,26 +16,29 @@ const GrowthRow1 = () => (
             </p>
             <GrowthStats />
         </div>
-
+       
         <div className="relative h-[400px]">
            
-            <Image src="/images/hero/hero1.png" alt="Student with laptop"
-                width={400} height={400}
-                className="absolute bottom-0 right-0 z-0" />
+            <Image src="/images/brand/course-card-crop.png" alt="Student with laptop"
+                width={300} height={350}
+                className="absolute bottom-10 right-20 z-0" />
 
             
-            <div className="absolute top-0 left-0 z-10 w-[280px]">
+             <Image src="/images/hero/hero1.png" alt="Student with laptop"
+                width={400} height={400}
+                className="absolute -bottom-10 -right-15 z-10" />
+            {/* <div className="absolute top-0 left-0 z-10 w-[280px]">
                
-            </div>
-
-           
-            {/* <div className="absolute top-[40%] right-0 z-20">
-                <ProgressCard label="Learning Progress" percent={55} />
             </div> */}
 
-            <Image src="/images/shapes/squiggle-lime.png" alt=""
+           
+            <div className="absolute top-[50%] -right-18 z-20">
+                <ProgressCard label="Learning Progress" percent={55} />
+            </div>
+
+            {/* <Image src="/images/shapes/squiggle-lime.png" alt=""
                 width={100} height={100}
-                className="absolute top-[15%] right-[10%] -z-10" />
+                className="absolute top-[15%] right-[10%] -z-10" /> */}
         </div>
     </div>
 );
