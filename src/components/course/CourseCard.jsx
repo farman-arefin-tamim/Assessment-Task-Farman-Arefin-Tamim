@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CourseCard = ({ course }) => {
     return (
-        <div className="card bg-base-100 shadow-sm border border-gray-100 rounded-2xl mx-4">
+        <div className="card min-w-0 bg-base-100 shadow-sm border border-gray-100 rounded-2xl">
             
             <figure className="relative">
                 <Link href={`/courses/${course.slug}`} className="block w-full">
@@ -15,7 +15,7 @@ const CourseCard = ({ course }) => {
                     className="w-full h-[220px] object-cover"
                 />
                 </Link>
-                <div className="absolute bottom-3 left-3 flex gap-2">
+                <div className="absolute bottom-3 left-3 right-3 flex flex-wrap gap-2">
                     <span className="badge badge-neutral bg-black/60 border-none text-white text-xs">
                         {course.lessonCount} Lessons
                     </span>
@@ -31,7 +31,7 @@ const CourseCard = ({ course }) => {
             <div className="card-body gap-2">
                
                 <div className="flex items-start justify-between gap-2">
-                    <h3 className="font-semibold text-lg">
+                    <h3 className="min-w-0 font-semibold text-lg break-words">
                         <Link href={`/courses/${course.slug}`} className="hover:text-primary">{course.title}</Link>
                     </h3>
                     <div className="flex items-center gap-1 shrink-0">

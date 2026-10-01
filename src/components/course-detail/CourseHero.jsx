@@ -9,8 +9,8 @@ const badge = "inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 
 const CourseHero = ({ course }) => (
     <div className="pt-10 w-full">
         <div className="flex items-start justify-between gap-4">
-            <div>
-                <h1 className="font-semibold text-3xl md:text-4xl text-white">{course.fullTitle}</h1>
+            <div className="min-w-0">
+                <h1 className="font-semibold text-3xl leading-tight break-words text-white md:text-4xl">{course.fullTitle}</h1>
                 <p className="text-white/90 mt-2 font-satoshi">{course.subtitle}</p>
                 <p className="text-white/90 mt-4 text-sm font-satoshi">
                     by{" "}
@@ -26,7 +26,7 @@ const CourseHero = ({ course }) => (
                     <span className={badge}><LuUsers /> {course.students} Students</span>
                 </div>
             </div>
-            <ShareButton title={course.fullTitle} />
+            <div className="shrink-0"><ShareButton title={course.fullTitle} /></div>
         </div>
 
         <div className="relative mt-8 aspect-video w-full overflow-hidden rounded-2xl bg-black/20">

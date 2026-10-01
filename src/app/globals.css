@@ -5,9 +5,24 @@
   --font-clash-display: var(--font-clash-display);
 }
 
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 .grid-background {
   --grid-size: 85px;
   --grid-line-color: rgba(255, 255, 255, 0.14);
+  /* background-attachment: fixed; */
   background-image: linear-gradient(
       to right,
       var(--grid-line-color) 1px,

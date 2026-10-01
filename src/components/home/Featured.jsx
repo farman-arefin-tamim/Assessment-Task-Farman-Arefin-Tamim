@@ -39,7 +39,7 @@ const Featured = () => {
                     <CategoryPills categories={categories} />
                 </div>
 
-                 <div className="mt-12">
+                 <div className="mt-12 mx-12">
                     <CourseGrid courses={courses.slice(0, 6)} />
                 </div>
             </div>

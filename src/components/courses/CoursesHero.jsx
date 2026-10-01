@@ -6,7 +6,7 @@ const CoursesHero = ({ search, onSearchChange }) => (
             Find Your Next Course
         </h1>
 
-        <div className="flex justify-center items-center gap-2 mt-8">
+        <div className="mx-auto mt-8 flex w-full max-w-xl flex-col justify-center items-stretch gap-2 sm:flex-row sm:items-center">
             <label className="input border-2 border-white rounded-full px-4 py-2 flex items-center gap-2 w-full max-w-[400px] bg-white">
                 <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2.5" fill="none" stroke="currentColor">
@@ -22,7 +22,7 @@ const CoursesHero = ({ search, onSearchChange }) => (
                     onChange={(e) => onSearchChange(e.target.value)}
                 />
             </label>
-            <button type="button" className="btn rounded-full bg-[#D4FB20] text-black border-none gap-1">
+            <button type="button" className="btn rounded-full bg-[#D4FB20] text-black border-none gap-1 sm:shrink-0">
                 Courses <LuChevronDown />
             </button>
         </div>
